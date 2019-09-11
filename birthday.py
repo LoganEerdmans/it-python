@@ -1,3 +1,3 @@
-from Banner import Banner
+from banner import banner
 
-Banner("Birthday", "Logan Eerdmans")
+banner("Birthday", "Logan Eerdmans")
