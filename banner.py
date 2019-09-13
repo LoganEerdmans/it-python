@@ -1,6 +1,6 @@
-def banner(subject, banner):
+def banner(subject, author):
     subject_length = len(subject)
-    by_line = f"By (author)"
+    by_line = f"By {author}"
     by_line_length = len(by_line)
     banner_length = max(subject_length, by_line_length) + 4
 
