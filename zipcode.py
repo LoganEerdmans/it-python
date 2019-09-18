@@ -16,12 +16,11 @@ while ask.capitalize() == "Y":
         area = "Brohman"
     elif zcode == 49337:
         area = "Croton"
+        area1 = "Newaygo"
     elif zcode == 49412 or zcode == 49413:
         area = "Fremont"
     elif zcode == 49327:
         area = "Grant"
-    elif zcode == 49337:
-        area = "Newaygo"
     elif zcode == 49349:
         area = "White Cloud"
     else:
@@ -30,6 +29,8 @@ while ask.capitalize() == "Y":
 
     if area is "None":
         print()
+    elif zcode == 49337:
+        print(F"The zipe code {zcode} is for {area} and {area1}.")
     else:
         print(f"The zip code {zcode} is for {area}.")
 
